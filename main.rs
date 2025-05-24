@@ -14,4 +14,7 @@ fn test_fun() {
     let mystr: &str = "Apple";
     println!("mystr: {}", mystr);
 
+    let name: (&str, &str, u8)     = ("Prince", "Kumar",22);
+    println!("name: {:?}", name);
+
 }
