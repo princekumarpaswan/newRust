@@ -17,7 +17,9 @@ fn test_fun() {
     let name: (&str, &str, u8) = ("Prince", "Kumar",22);
     println!("name: {:?}", name);
 
-    let array1: [u16; 3] = [ 23, 34, 45];
+    let  array1: [u16; 6] = [ 23, 34, 45, 56, 67, 78];
     println!("array1: {:?}", array1);
-
+    let new_ages: &[u16] = &array1[2..=4];
+    println!("new_ages: {:?}", new_ages);
+    
 }
