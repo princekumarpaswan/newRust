@@ -14,7 +14,10 @@ fn test_fun() {
     let mystr: &str = "Apple";
     println!("mystr: {}", mystr);
 
-    let name: (&str, &str, u8)     = ("Prince", "Kumar",22);
+    let name: (&str, &str, u8) = ("Prince", "Kumar",22);
     println!("name: {:?}", name);
+
+    let array1: [u16; 3] = [ 23, 34, 45];
+    println!("array1: {:?}", array1);
 
 }
