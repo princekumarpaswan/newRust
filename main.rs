@@ -3,7 +3,7 @@ pub mod helpers;
 fn main() {
     println!("hello Prince, I am rust");
     // test_fun();
-    println!("{}",helpers::gte_full_name("Prince","kumar"));
+    println!("{}",helpers::namehelper::gte_full_name("Prince","kumar"));
 }
 
 
