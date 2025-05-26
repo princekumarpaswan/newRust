@@ -1,9 +1,12 @@
 pub mod helpers;
+pub mod test_if;
 
 fn main() {
     println!("hello Prince, I am rust");
     // test_fun();
     println!("{}",helpers::namehelper::gte_full_name("Prince","kumar"));
+    let can_idrive = test_if::test_if::test_if();
+    println!("{}",can_idrive);
 }
 
 
