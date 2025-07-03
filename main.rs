@@ -11,6 +11,7 @@ fn main() {
 
 
 
+
 #[allow(dead_code)]
 fn test_fun() {
     let x: f32 = 10.0;
